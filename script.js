@@ -1,3 +1,3 @@
-const novaTarefa = Document.getElementById('novaTarefa');
-const btnAddTarefa = Document.getElementById('btnAddTarefa');
-const listaTarfa = Document.getElementById('listaTarfa');
+const novaTarefa = document.getElementById('novaTarefa');
+const btnAddTarefa = document.getElementById('btnAddTarefa');
+const listaTarfa = document.getElementById('listaTarfa');
