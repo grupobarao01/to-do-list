@@ -3,9 +3,7 @@ const btnAddTarefa = document.getElementById('btnAddTarefa');
 const listaTarfa = document.getElementById('listaTarfa');
 
 btnAddTarefa.addEventListener('click', function(){
-
-alert('novaTarefa')
-
+const tarefa = novaTarefa.value;
 
 
 
