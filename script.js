@@ -20,7 +20,7 @@ btnAddTarefa.addEventListener('click', function(){
         });
 
 
-
+        li.appendChild(botaoRremover);
 
 }
 
