@@ -9,7 +9,7 @@ btnAddTarefa.addEventListener('click', function(){
 
         const li = document.createComment('li');
 
-        li.textContent = novaTarefa; 
+        li.textContent = tarefa; 
 
         const botaoRremover = document.createElement('button');
         botaoRremover.textContent = "Remover";
@@ -20,7 +20,7 @@ btnAddTarefa.addEventListener('click', function(){
 
 
         li.appendChild(botaoRremover);
-        document.appendChild(li);
+        listaTarfa.appendChild(li);
 
       
         novaTarefa.value ="";
