@@ -21,9 +21,7 @@ btnAddTarefa.addEventListener('click', function(){
 
         
         const div = document.createElement('div');
-
         div.appendChild(botaoRemover);
-
         li.appendChild(div);
 
         listaTarefa.appendChild(li);
