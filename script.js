@@ -5,7 +5,6 @@ const listaTarfa = document.getElementById('listaTarfa');
 btnAddTarefa.addEventListener('click', function(){
     const tarefa = novaTarefa.value;
    
-
     if(tarefa != " "){
 
         const li = document.createComment('li');
@@ -21,12 +20,13 @@ btnAddTarefa.addEventListener('click', function(){
 
 
         li.appendChild(botaoRremover);
-        listaTarfa.appendChild(li);
+        document.appendChild(li);
 
+      
         novaTarefa.value ="";
-
-
-}
+       
+        
+    }
 
 
 
