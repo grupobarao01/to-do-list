@@ -11,22 +11,22 @@ btnAddTarefa.addEventListener('click', function(){
 
         li.textContent = tarefa; 
 
-        const botaoRremover = document.createElement('button');
+        const botaoRemover = document.createElement('button');
         botaoRremover.textContent = "Remover";
 
-        botaoRremover.addEventListener('click',function(){
+        botaoRemover.addEventListener('click',function(){
             li.remove();
         });
 
 
-        li.appendChild(botaoRremover);
+        li.appendChild(botaoRemover);
         listaTarfa.appendChild(li);
 
       
         novaTarefa.value ="";
        
         
-    }
+    };
 
 
 
