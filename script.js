@@ -12,7 +12,7 @@ btnAddTarefa.addEventListener('click', function(){
         li.textContent = tarefa; 
 
         const botaoRemover = document.createElement('button');
-        botaoRremover.textContent = "Remover";
+        botaoRemover.textContent = "Remover";
 
         botaoRemover.addEventListener('click',function(){
             li.remove();
