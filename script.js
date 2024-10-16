@@ -5,7 +5,7 @@ const listaTarfa = document.getElementById('listaTarfa');
 btnAddTarefa.addEventListener('click', function(){
     const tarefa = novaTarefa.value;
    
-    if(tarefa != " "){
+    if(tarefa !== " "){
 
         const li = document.createComment('li');
 
