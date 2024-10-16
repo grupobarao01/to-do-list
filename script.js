@@ -4,7 +4,7 @@ const listaTarfa = document.getElementById('listaTarfa');
 
 btnAddTarefa.addEventListener('click', function(){
 
-alert('BEM VINDO')
+alert('novaTarefa')
 
 
 
