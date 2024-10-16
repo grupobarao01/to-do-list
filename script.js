@@ -6,5 +6,25 @@ btnAddTarefa.addEventListener('click', function(){
      const tarefa = novaTarefa.value;
    
 
+     if(tarefa != " "){
+
+        const li = document.createComment('li');
+
+        li.textContent = novaTarefa; 
+
+        const botaoRremover = document.createElement('button');
+        botaoRremover.textContent = "Remover";
+
+        botaoRremover.addEventListener('click',function(){
+            li.remove();
+        });
+
+
+
+
+}
+
+
+
 
 });
